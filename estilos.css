@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topo-rodape{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.topo-rodape h1{
+    font-size: 22px;
+}
+
+.topo-rodape p{
+    font-size: 20px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.conteudo{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conteudo h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.conteudo p{
+    text-align: justify;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.area-cards .ico{
+    width: calc(200% / 3 );
+    margin: 5px auto;
+    padding: 8px;
+}
+
+.cards{
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    box-sizing: border-box;
+    width: calc((95%/3) - 10px);
+    margin: 0 10px;
+    padding: 15px;
+    background-color: rgb(252, 181, 50);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 10px inset black;
+}
+
+.card h3{
+    width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.card ul{
+    font-size: 12px;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.galeria{
+    margin-top: 18px;
+}
+
+.galeria img{
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
+
+.galeria .galeria-img{
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 22px;
+}
+
+
